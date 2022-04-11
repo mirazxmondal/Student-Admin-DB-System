@@ -14,6 +14,6 @@ if(mysqli_num_rows($a)>0)
 }
 else
 {
-    header("location:admin.html?msg=wrongemailorpwd");
+    header("location:admin.html?msg=wrongemailorpassword");
 }
 ?>
